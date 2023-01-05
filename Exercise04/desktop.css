@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    background-color: hsl(0, 0%, 95%);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box1 {
+    height: 340px;
+    width: 215px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+    border-radius: 10px 0px 0px 10px;
+}
+
+.box2 {
+    height: 340px;
+    width: 215px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.box3 {
+    height: 340px;
+    width: 215px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+
+    border-radius: 0px 10px 10px 0px;
+}
+
+img {
+    width: 50px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 15px;
+    width: 220px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+button {
+    border: 1px solid hsla(0, 0%, 100%, 0.75);
+    border-radius: 20px;
+    width: 120px;
+    height: 40px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+    margin-top: 60px;
+}
+
+.box1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.box2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.box3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+
+.box1 button:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(31, 77%, 52%);
+    cursor: pointer;
+}
+
+.box2 button:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.box3 button:hover {
+    color: hsla(0, 0%, 100%, 0.75);
+    background-color: hsl(179, 100%, 13%);
+    cursor: pointer;
+}
+
