@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+:root {
+    --Very-Dark-Magenta: hsl(300, 43%, 22%);
+    --Soft-Pink: hsl(333, 80%, 67%);
+    --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+    --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+    --White: hsl(0, 0%, 100%) ;
+
+    --font-league:'League Spartan', sans-serif; 
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    
+    font-family: var(--font-league);
+    font-size: 15px;
+    color: var(--Light-Grayish-Magenta);
+}
+
+/*psuedo elments*/ 
+main:before, 
+main:after { 
+  position: absolute; 
+  content: ''; 
+  width: 100vw; 
+  height: 100vh; 
+  background-size: auto; 
+  transform: translate(-50%, -50%); /*to the left and top*/ 
+ 
+  z-index: -1; 
+} 
+/*adding the top svg before the container*/ 
+main:before { 
+  top: 0; 
+  left: 0; 
+  background: url('images/bg-pattern-top-desktop.svg') no-repeat bottom right; /*to expand to bottom and right*/ 
+} 
+/*adding the bottom svg after the container*/ 
+main:after { 
+  top: 70%; 
+  left: 70%; 
+  background: url('images/bg-pattern-bottom-desktop.svg') no-repeat top left; /*to expand to top and left*/ 
+}
+
+
+
+
+
+.container1 {
+    display: flex;
+}
+
+.box1 {
+    width: 350px;
+    height: 200px;
+
+    margin: 10px;
+}
+
+h1 {
+    color: var(--Very-Dark-Magenta);
+    width: 200px;
+}
+
+.box1 p {
+    color: var(--Dark-Grayish-Magenta);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.box2 {
+    color: var(--Very-Dark-Magenta);
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+.reviews ,.report ,.besttech{
+    width: 390px;
+    height: 31px;
+    margin: 12px;
+    background-color: var(--Light-Grayish-Magenta);
+    border-radius: 10px;
+    padding-top: 14px;
+}
+
+.fivestars {
+    margin-left: 25px;
+    margin-right: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fivestars img {
+    width: 15px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.report {
+    margin-left: 50px;
+}
+
+.besttech {
+    margin-left: 100px;
+}
+
+.box3 {
+    margin: 10px;
+}
+
+.box4 {
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.box5 {
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.tag {
+    color:var(--Soft-Pink);
+}
+
+.box3, .box4, .box5 {
+    color: var(--Light-Grayish-Magenta);
+    background-color: var(--Very-Dark-Magenta);
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 20px;
+    width: 270px;
+    height: 170px;
+}
+
+.photo {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50px;
+    width: 45px;
+    margin-right: 20px;
+}
+
+.container4 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box3 p {
+    margin-top: 30px;
+    line-height: 1.4;
+}
+
+.box4 p {
+    margin-top: 30px;
+    line-height: 1.4;
+}
+
+.box5 p {
+    margin-top: 30px;
+    line-height: 1.4;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    :root {
+        --Very-Dark-Magenta: hsl(300, 43%, 22%);
+        --Soft-Pink: hsl(333, 80%, 67%);
+        --Dark-Grayish-Magenta: hsl(303, 10%, 53%);
+        --Light-Grayish-Magenta: hsl(300, 24%, 96%);
+        --White: hsl(0, 0%, 100%) ;
+    
+        --font-league:'League Spartan', sans-serif; 
+    }
+    
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;    
+        
+        font-family: var(--font-league);
+        font-size: 15px;
+        color: var(--Light-Grayish-Magenta);
+    }
+    
+    /*psuedo elments*/ 
+    main:before, 
+    main:after { 
+      position: absolute; 
+      content: ''; 
+      width: 100vw; 
+      height: 100vh; 
+      background-size: auto; 
+      transform: translate(-50%, -50%); /*to the left and top*/ 
+     
+      z-index: -1; 
+    } 
+    /*adding the top svg before the container*/ 
+    main:before { 
+      top: -20%; 
+      left: 0%; 
+      background: url('images/bg-pattern-top-mobile.svg') no-repeat bottom right; /*to expand to bottom and right*/ 
+    } 
+    /*adding the bottom svg after the container*/ 
+    main:after { 
+      top: 150%; 
+      left: 70%; 
+      background: url('images/bg-pattern-bottom-mobile.svg') no-repeat top left; /*to expand to top and left*/ 
+    }
+    
+    
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .box1 {
+        width: 350px;
+        height: 200px;
+        margin: 10px;
+        margin-top: 50px;
+        margin-bottom: -30px;
+    }
+    
+    h1 {
+        color: var(--Very-Dark-Magenta);
+        width: 200px;
+        margin: auto;
+    }
+    
+    .box1 p {
+        color: var(--Dark-Grayish-Magenta);
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    
+    .box2 {
+        color: var(--Very-Dark-Magenta);
+        font-weight: 700;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .reviews ,.report ,.besttech{
+        width: 320px;
+        height: 50px;
+        margin: 12px;
+        background-color: var(--Light-Grayish-Magenta);
+        border-radius: 10px;
+        padding-top: 14px;
+    }
+    
+    .fivestars {
+        margin-left: 25px;
+        margin-right: 25px;
+        display: block;
+        vertical-align: middle;
+    }
+    
+    .fivestars img {
+        width: 15px;
+    }
+    
+    .container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box3 {
+        margin: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box4 {
+        margin: 10px;
+        margin-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .box5 {
+        margin: 10px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+    
+    .tag {
+        color:var(--Soft-Pink);
+    }
+    
+    .box3, .box4, .box5 {
+        color: var(--Light-Grayish-Magenta);
+        background-color: var(--Very-Dark-Magenta);
+        font-weight: 500;
+        border-radius: 5px;
+        padding: 20px;
+        width: 270px;
+        height: 170px;
+    }
+    
+    .photo {
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50px;
+        width: 45px;
+        margin-right: 20px;
+    }
+    
+    .container4 {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    
+    .box3 p {
+        margin-top: 30px;
+        line-height: 1.4;
+    }
+    
+    .box4 p {
+        margin-top: 30px;
+        line-height: 1.4;
+    }
+    
+    .box5 p {
+        margin-top: 30px;
+        line-height: 1.4;
+    }
+    
+
+}
+
