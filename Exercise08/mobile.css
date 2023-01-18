@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+@media (max-width: 900px) {
+    :root {
+
+        --Red: hsl(0, 78%, 62%);
+        --Cyan: hsl(180, 62%, 55%);
+        --Orange: hsl(34, 97%, 64%);
+        --Blue: hsl(212, 86%, 64%);
+
+        --Very-Dark-Blue: hsl(234, 12%, 34%);
+        --Grayish-Blue: hsl(229, 6%, 66%);
+        --Very-Light-Gray: hsl(0, 0%, 98%);
+
+        --Poppins: 'Poppins', sans-serif;;
+
+    }
+ 
+    body {
+        margin: 0;
+        background-color: var(--Very-Light-Gray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        font-family: var(--Poppins);
+        padding: 50px 0px;
+        font-size: 15px;
+    }
+
+    h4 , p {
+        margin: 0;
+    }
+
+    header {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+
+    .tittle1 {
+        color: var(--Grayish-Blue);
+        font-weight: 200;
+        font-size: 24px;
+        margin-bottom: -20px;
+    }
+
+    .tittle2 {
+        color: var(--Very-Dark-Blue);
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    header p {
+        color: var(--Grayish-Blue);
+        font-weight: 400;
+    }
+
+    .box1 , .box2 , .box3 , .box4 {
+        background-color: white;
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        margin-bottom: 25px;
+        box-shadow: 0px 10px 15px #00000021;
+    }
+
+    .box1-shadow {
+        width: 300px;
+        height: 3px;
+        background-color: var(--Cyan);
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .box2-shadow {
+        width: 300px;
+        height: 3px;
+        background-color: var(--Red);
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .box3-shadow {
+        width: 300px;
+        height: 3px;
+        background-color: var(--Orange);
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .box4-shadow {
+        width: 300px;
+        height: 3px;
+        background-color: var(--Blue);
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    main h4 {
+        margin-left: 20px;
+        margin-top: 25px;
+        color: var(--Very-Dark-Blue);
+        font-size: 18px
+    }
+
+    main p {
+        margin-left: 20px;
+        margin-top: 10px;
+        color: var(--Grayish-Blue);
+        font-size: 13px;
+    }
+
+    main img {
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+}
