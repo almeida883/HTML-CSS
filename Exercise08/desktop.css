@@ -25,7 +25,6 @@ body {
     flex-direction: column;
     min-height: 100vh;
     font-family: var(--Poppins);
-    padding: 50px 0px;
     font-size: 15px;
 }
 
