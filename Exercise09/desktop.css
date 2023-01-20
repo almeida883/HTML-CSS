@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+@media (min-width: 700px) {
+
+    :root {
+        --Cyan: hsl(179, 62%, 43%);
+        --Bright-Yellow: hsl(71, 73%, 54%);
+        --Light-Gray: hsl(204, 43%, 93%);
+        --Grayish-Blue: hsl(218, 22%, 67%);
+
+        --Karla: 'Karla', sans-serif; 
+    }
+ 
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+
+        background-color: var(--Light-Gray);
+        font-family: var(--Karla);
+        font-size: 15px;
+    }
+
+    main {
+        height: 500px;
+        width: 700px;
+        display: grid;
+        grid-template-areas: 
+        "box1 box1"
+        "box2 box3";
+        box-shadow: 1px 1px 100px #0000002f;
+    }
+
+    .box1 {
+        background-color: white;
+        grid-area: box1;
+        padding:20px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .box2 {
+        grid-area: box2;
+        background-color: var(--Cyan);
+        padding:20px;
+        border-radius: 0px 0px 0px 5px;
+        width: 350px;
+    }
+
+    .box3 {
+        grid-area: box3;
+        background-color: hsl(179, 45%, 54%);
+        padding: 20px;
+        border-radius: 0px 0px 5px 0px;
+        width: 350px;
+    }
+
+    
+    h1 , h2 , p{
+        margin: 0;
+    }
+
+    .box1 h1 {
+        color: var(--Cyan);
+        font-size: 23px;
+        margin-top: 20px;
+    }
+
+    .box1 h2 {
+        color: var(--Bright-Yellow);
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+    .box1 p {
+        color: var(--Grayish-Blue);
+        margin-top: 20px;
+        line-height: 28px;
+    }
+
+    .box2 h1 {
+        color: var(--Light-Gray);
+        font-size: 27px;
+        margin-top: 25px;
+    }
+
+    .information {
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .price {
+        color: var(--Light-Gray);
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .per-month {
+        color: rgba(255, 255, 255, 0.356);
+        margin: 5px 0px 0px 10px;
+    }
+
+    .box2 p {
+        color: var(--Light-Gray);
+        margin-top: 30px;
+    }
+
+    .box2 button {
+        color: var(--Light-Gray);
+        background-color: var(--Bright-Yellow);
+        border: none;
+        width: 280px;
+        height: 60px; 
+        border-radius: 5px;
+        box-shadow: 1px 2px 10px #0000003d;
+        margin-left: 35px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .box3 h1 {
+        color: var(--Light-Gray);
+        margin-top: 20px;
+    }
+
+    .box3 p {
+        color: var(--Light-Gray);
+        margin-top: 10px;
+        line-height: 30px;
+        width: 200px;
+    }
+
+
+}

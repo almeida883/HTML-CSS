@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+@media (max-width: 700px) {
+
+    :root {
+        --Cyan: hsl(179, 62%, 43%);
+        --Bright-Yellow: hsl(71, 73%, 54%);
+        --Light-Gray: hsl(204, 43%, 93%);
+        --Grayish-Blue: hsl(218, 22%, 67%);
+
+        --Karla: 'Karla', sans-serif;
+    }
+ 
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+
+        background-color: var(--Light-Gray);
+        font-family: var(--Karla);
+        font-size: 15px;
+    }
+
+    main {
+        width: 300px;
+        height: 750px; 
+        margin-bottom: 80px;
+    }
+
+    .box1 {
+        background-color: white;
+        width: 300px;
+        height: 250px;
+        padding:20px;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .box2 {
+        background-color: var(--Cyan);
+        width: 300px;
+        height: 200px;
+        padding:20px;
+    }
+
+    .box3 {
+        background-color: hsl(179, 45%, 54%);
+        width: 300px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    h1 , h2 , p{
+        margin: 0;
+    }
+
+    .box1 h1 {
+        color: var(--Cyan);
+        font-size: 23px;
+        margin-top: 10px;
+    }
+
+    .box1 h2 {
+        color: var(--Bright-Yellow);
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 25px;
+    }
+
+    .box1 p {
+        color: var(--Grayish-Blue);
+        margin-top: 20px;
+        line-height: 28px;
+    }
+
+    .box2 h1 {
+        color: var(--Light-Gray);
+        font-size: 17px;
+    }
+
+    .information {
+        display: flex;
+        margin-top: 25px;
+    }
+
+    .price {
+        color: var(--Light-Gray);
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .per-month {
+        color: rgba(255, 255, 255, 0.356);
+        margin: 5px 0px 0px 10px;
+    }
+
+    .box2 p {
+        color: var(--Light-Gray);
+        margin-top: 20px;
+    }
+
+    .box2 button {
+        color: var(--Light-Gray);
+        background-color: var(--Bright-Yellow);
+        border: none;
+        width: 280px;
+        height: 40px; 
+        margin-left: 10px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 10px #0000003d;
+        margin-top: 40px;
+    }
+
+    .box3 h1 {
+        color: var(--Light-Gray);
+    }
+
+    .box3 p {
+        color: var(--Light-Gray);
+        margin-top: 10px;
+        line-height: 30px;
+        width: 200px;
+    }
+
+}
