@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@media (max-width: 480px) { 
+    :root {
+        --Dark-blue: #13183e;
+        --Grey: #8f8ea0;
+        --Violet: #fb4e88;
+        --Gradient: linear-gradient(#fd6357 ,#f2309e);
+        --Gradient2: linear-gradient(#4a52fa ,#f2309e);
+        --Gradient-background: linear-gradient(#ffffff , #eef0ff);
+        --Noto: 'Noto Sans Tangsa', sans-serif;
+        --Raleway: 'Raleway', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        font-family: var(--Noto);
+        font-weight: 400;
+    }
+    
+    h2, p {
+        margin: 0;
+    }
+
+    header {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header button {
+        margin-right: 20px;
+
+        color: white;
+        background-color: var(--Dark-blue);
+        padding-left: 10px;
+        width: 110px;
+        height: 30px;
+        border-style: none;
+        border-radius: 30px;
+        font-family: var(--Noto);
+    }
+
+    main h1 {
+        color: var(--Dark-blue);
+        max-width: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-family: var(--Raleway);
+    }
+
+    .first-text {
+        color: var(--Grey);
+        max-width: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+
+    main button {
+        margin: 20px;
+
+        color: white;
+        background-image: var(--Gradient);
+        padding-left: 10px;
+        width: 110px;
+        height: 30px;
+        border-style: none;
+        border-radius: 30px;
+        font-family: var(--Noto);
+    }
+
+    .image-hero-mobile {
+        width: 350px;
+    }
+
+    .image-hero-tablet {
+        display: none;
+    }
+
+    .image-hero-desktop {
+        display: none;
+    }
+
+    .box1 ,.box2 ,.box3 ,.box4 ,.box5, .box6 {
+        width: 300px;
+        height: 200px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 40px;
+        font-size: 14px;
+        box-shadow: 1px 10px 100px #0000001a;
+    }
+
+    .box1 {
+        width: 300px;
+        height: 90px;
+        background-image: var(--Gradient);
+        font-size: 18px;
+    }
+
+    .box1 p {
+        color: white;
+        max-width: 230px;
+        padding-top: 20px;
+        margin-left: 20px;
+    }
+
+    p {
+        color: var(--Grey);
+        margin-top: 20px;
+    }
+
+    .icon-animation {
+        position: absolute;
+        width: 50px;
+        top: 800px;
+    }
+
+    .icon-design {
+        position: absolute;
+        width: 50px;
+        top: 1040px;
+    }
+
+    .icon-photography {
+        position: absolute;
+        width: 50px;
+        top: 1280px;
+    }
+
+    .icon-crypto {
+        position: absolute;
+        width: 50px;
+        top: 1520px;
+    }
+
+    .icon-business {
+        position: absolute;
+        width: 50px;
+        top: 1760px;
+    }
+
+    .box {
+       padding: 40px 20px 20px 20px;
+    }
+
+    h6  {
+        font-family: var(--Raleway);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--Violet);
+        margin-top: 40px;
+    }
+
+    footer {
+        background-color: var(--Dark-blue);
+        padding: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    footer button {
+        color: white;
+        background-image: var(--Gradient2);
+        padding-left: 10px;
+        width: 110px;
+        height: 30px;
+        border-style: none;
+        border-radius: 30px;
+        font-family: var(--Noto);
+    }
+
+
+
+}
