@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+@media (min-width: 769px) { 
+
+  
+    body {
+        margin: 0;
+        background-image: url(assets/bg-main-desktop.png);
+        background-position: 70% 40%;
+        width: 1000px;  
+        margin: auto;
+    }
+
+    header {
+        width: 800px;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+    h1 {
+        width: 600px;
+        font-size: 60px;
+    }
+
+    .header-text {
+        line-height: 25px;
+        width: 560px;
+    }
+
+    .bg-pattern-1 {
+        width: 180px;
+        position: absolute;
+        top: -2%;
+        right: 0%;
+    }
+
+    main {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 150px;
+    }
+
+    .box-pattern2 {
+        width: 800px;
+        height: 480px;
+        background-color: #191826;  
+        border-radius: 15px;
+        margin-left: 15px;
+    }
+
+    .bg-pattern-2 {
+       display: block;
+       margin: auto;
+       width: 260px;
+    }
+
+    .illustration-app {
+        width: 250px;
+        position: absolute;
+        transform: translate(40%, -115%);
+    }
+
+    .card {
+        width: 340px;
+        height: 500px;
+        background-color: #fa7451;
+        border-radius: 15px;
+        position: absolute;
+        transform: translate(120%, -80%);
+    }
+
+    .card-box {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        color: white;
+    }
+
+    h2 {
+        font-size: 30px; 
+    }
+
+    .main-text {
+        line-height: 25px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .monthly-payment {
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .price {
+        font-size: 40px;
+        margin-right: 15px;
+    }
+
+    button {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ios-button {
+        width: 85%;
+        height: 50px;
+        margin: auto;
+        background-color: #191826;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        color: white;
+    }
+
+    .icon-apple {
+        margin-right: 5px;
+    }
+
+    .android-button {
+        width: 85%;
+        height: 50px;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        color: #191826;
+    }
+
+    .icon-android {
+        margin-right: 5px;
+    }
+
+
+    footer {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 250px;
+        display: flex;
+    }
+
+    .box-icons1 {
+        display: flex;
+        width: 600px;
+    }
+
+    .logo-footer {
+        margin-bottom: 20px;
+        display: block;
+        width: 100px;
+    }
+
+    .text-footer {
+        line-height: 20px;
+        margin: 0px 0px 70px 70px;
+    }
+
+    .text-footer span {
+        font-weight: bold;
+    }
+
+
+    .box-icons2 {
+        width: 200px;
+        margin-left: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .box-icons2 img {
+        width: 20px;
+        height: 20px;
+    }
+}

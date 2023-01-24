@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@media (max-width: 480px) { 
+
+    body {
+        margin: 0;
+        background-image: url(assets/bg-main-mobile.png);
+        background-position: -10% -100%;
+        width: 400px;  
+        margin: auto;
+        
+    }
+
+    header {
+        width: 360px;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    h1 {
+        width: 300px;
+        font-size: 40px;
+    }
+
+    .header-text {
+        line-height: 22px;
+    }
+
+    .bg-pattern-1 {
+        display: none;
+    }
+
+    main {
+        width: 400px;
+        margin: auto;
+        margin-top: 150px;
+    }
+
+    .box-pattern2 {
+        width: 400px;
+        height: 500px;
+        background-color: #191826;  
+        border-radius: 15px;
+    }
+
+    .bg-pattern-2 {
+       display: block;
+       margin: auto;
+    }
+
+    .illustration-app {
+        width: 250px;
+        position: absolute;
+        transform: translate(30%, -115%);
+    }
+
+    .card {
+        width: 400px;
+        height: 450px;
+        background-color: #fa7451;
+        border-radius: 15px;
+        position: absolute;
+        transform: translate(0%, -11%);
+    }
+
+    .card-box {
+        display: flex;
+        flex-direction: column;
+        margin: 30px;
+        color: white;
+    }
+
+    h2 {
+        font-size: 30px; 
+    }
+
+    .main-text {
+        line-height: 25px;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .monthly-payment {
+        display: flex;
+        font-size: 20px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .price {
+        font-size: 40px;
+        margin-right: 15px;
+    }
+
+    button {
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .ios-button {
+        width: 85%;
+        height: 50px;
+        margin: auto;
+        background-color: #191826;
+        border-radius: 10px;
+        margin-bottom: 12px;
+        color: white;
+    }
+
+    .icon-apple {
+        margin-right: 5px;
+    }
+
+    .android-button {
+        width: 85%;
+        height: 50px;
+        margin: auto;
+        background-color: white;
+        border-radius: 10px;
+        color: #191826;
+    }
+
+    .icon-android {
+        margin-right: 5px;
+    }
+
+
+    footer {
+        width: 360px;
+        margin: 0 auto;
+        margin-top: 500px;
+    }
+
+    .logo-footer {
+        margin-bottom: 20px;
+    }
+
+    .text-footer {
+        margin-bottom: 50px;
+        line-height: 20px;
+    }
+
+    .text-footer span {
+        font-weight: bold;
+    }
+
+    .box-icons2 {
+        display: flex;
+        justify-content: space-between;
+        width: 100px;
+        margin-bottom: 50px;
+    }
+
+
+
+}
