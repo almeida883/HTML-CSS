@@ -22,6 +22,8 @@ body {
 
     background-color: var(--dark-blue-main-BG);
     font-family: var(--Outfit);
+
+    width: 375px;
 }
 
 main {
