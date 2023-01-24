@@ -30,6 +30,7 @@
         margin: 0;
         font-family: var(--Noto);
         font-weight: 400;
+        width: 768px;
     }
     
     h2, p {

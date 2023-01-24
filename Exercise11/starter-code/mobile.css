@@ -16,6 +16,7 @@
         margin: 0;
         font-family: var(--Noto);
         font-weight: 400;
+        width: 440px;
     }
     
     h2, p {
