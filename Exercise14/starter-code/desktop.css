@@ -1,0 +1,249 @@
+@charset "UTF-8";
+
+@media (min-width: 769px) { 
+    body {
+        margin: 0;
+        width: 1200px;  
+        margin: auto;
+        text-align: center;
+    }
+
+    
+    header {
+        width: 1200px;
+        margin: auto;
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .box-flex {
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    .box-block {
+        /**display: block; **/
+        width: 500px;
+    }
+
+    .image-hero {
+        display: none;
+    }
+
+    .image-hero-left {
+        width: 370px;
+        height: 280px;
+        transform: translate(-10% , -10%);
+    }
+
+    .image-hero-right {
+        width: 370px;
+        height: 280px;
+        transform: translate(10% , 10%);
+    }
+
+    h1 {
+        color: #27283d; 
+        margin: auto;
+        margin-top: 30px;
+        font-size: 40px;
+        width: 250px;
+    }
+
+    .header-text {
+        color: #86849a;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .box-button {
+        display: flex;
+        width: 250px;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .download-button-main {
+        display: block;
+        margin: auto;
+        border: none;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #4d96a9;
+        color: white;
+    }
+
+    .download-button-main span {
+        color: #82d3e6;
+    }
+
+    .what-button {
+        display: block;
+        margin: auto;
+        border: none;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #855fb2;
+        color: white;
+    }
+
+    main {
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .ball-01 {
+        margin:auto;
+        padding: 11px 0px;
+        width: 40px;
+        color: #87859a;
+        border-radius: 100px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dedee0;
+    }
+
+    .line {
+        margin: auto;
+        background-color: #dedee0;
+        height: 100px;
+        width: 1px;
+    }
+
+    .container01 {
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 1200px;
+        gap: 20px;
+    }
+
+    .image-woman-in-videocall, .image-women-videochatting, .image-men-in-meeting, .image-man-texting {
+        width: 190px;
+        border-radius: 7px;
+    }
+
+    h2 {
+        color: #4f8f99;
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    h3 {
+        color: #282840;
+        width: 350px;
+        margin: auto;
+        font-size: 30px;
+    }
+
+    .main-text {
+        color: #86849a;
+        width: 400px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    
+    
+    .box01 {
+        margin-top: 150px;
+        position: absolute;
+        transform: translate(1400% , -65%);
+        z-index: 1;
+    }
+
+    .line2 {
+        margin: auto;
+        background-color: #dedee0;
+        height: 100px;
+        width: 1px;
+    }
+
+    .ball-02 {
+        margin:auto;
+        padding: 11px 0px;
+        width: 40px;
+        color: #87859a;
+        border-radius: 100px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #dedee0;
+        background-color: white;
+    }
+
+    footer {
+        margin-top: 180px;
+        background-color: #4f8f99;
+        background-image: url(assets/desktop/image-footer.jpg);
+        background-size: cover;
+        z-index: -2;
+        position: relative;
+        padding-bottom: 100px;
+        text-align: start;
+    }
+    
+    .color-opacity {
+        content: '';
+        opacity: 0.8;
+        width: 100%;
+        height: 100%;
+        background-color: #4f8f99;
+        z-index: -1;
+        position: absolute;
+    }
+
+    .box-flex02 {
+        display: flex;
+        justify-content: center; 
+        margin: auto;
+        padding-top: 100px;
+        width: 1000px;
+    }
+
+    h4 {
+        color: white;
+        font-size: 25px;
+        width: 220px;
+        margin: auto;
+    }
+
+    .footer-text {
+        color: white;
+        width: 370px;
+        margin: auto;
+        margin-top: 5px;
+    }
+
+    .download-button-footer {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        border: none;
+        width: 130px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #855fb2;
+        color: white;
+    }
+
+    .download-button-footer span {
+        color: #dbbaff;
+    }
+    
+
+
+    
+}
+
+
+
+
+
