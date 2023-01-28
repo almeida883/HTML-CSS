@@ -20,8 +20,8 @@
         background-color: var(--Very-Dark-Blue);
         background-image: url(images/bg-desktop.png);
         background-repeat: no-repeat;
-        background-size: 3000px;
-        background-position: 10% -500%;
+        background-position: bottom right;
+
 
         display: flex;
         justify-content: center;
