@@ -1,0 +1,384 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+@media (min-width: 1439px) { 
+
+    
+    :root {
+        --Strong-Cyan: hsl(171, 66%, 44%);
+        --Light-Blue: hsl(233, 100%, 69%);
+
+        --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+        --Grayish-Blue: hsl(201, 11%, 66%);
+
+        --Bai: 'Bai Jamjuree', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        width: 1440px;
+        font-size: 18px;
+        font-family: var(--Bai);
+        background-color: white;
+        background-image: url(images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top;
+
+        text-align: center;
+    }
+
+    header {
+
+    }
+
+    .logo {
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    header h1 {
+        color: var(--Dark-Grayish-Blue);
+        margin-top: 50px;
+    }
+
+    .text-01-header {
+        color: var(--Grayish-Blue);
+        width: 600px;
+        margin: auto;
+    }
+
+    .box-01-header {
+        width: 600px;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+        margin-top: 60px;
+
+    }
+
+    .ios-button {
+        width: 300px;
+        height: 50px;
+        background-color: var(--Strong-Cyan);
+        margin: auto;
+        color: white;
+        border-radius: 30px;
+        border-color: #1ba18d2d;
+        border-width: 4px;
+        border-style: solid outset outset inset;
+        font-family: var(--Bai);
+        font-size: 18px;
+        font-weight: 700;
+        box-shadow: 0px 20px 100px #26bba58a;
+
+
+    }
+
+    .mac-button {
+        width: 300px;
+        height: 50px;
+        background-color: var(--Light-Blue);
+        margin: auto;
+        color: white;
+        border-radius: 30px;
+        border-color: #1ba18d2d;
+        border-width: 4px;
+        border-style: solid outset outset inset;
+        font-family: var(--Bai);
+        font-size: 18px;
+        font-weight: 700;
+        box-shadow: 0px 20px 100px #6375fc8a;
+
+        margin-left: 30px;
+    }
+
+    .ios-button:hover {
+        cursor: pointer;
+        background-color: hsl(171, 43%, 52%);
+    }
+
+    .mac-button:hover {
+        cursor: pointer;
+        background-color: hsl(233, 95%, 75%);
+    }
+
+    main {
+        margin-top: 100px;
+    }
+
+    main h2 {
+        color: var(--Dark-Grayish-Blue);
+        margin: auto;
+    }
+
+    main h3 {
+        color: var(--Dark-Grayish-Blue);
+    }
+
+    .text-01-main {
+        color: var(--Grayish-Blue);
+        padding-top: 20px;
+        width: 800px;
+        margin: auto;
+    }
+
+    .box-01-main {
+        display: flex;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .box-supply {
+
+    }
+
+    .image-computer {
+        width: 700px;
+        margin: auto;
+        display: block;
+        position: relative;
+        transform: translate(-15% ,0%);
+    }
+
+    .box-supply-02 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .box-supply-02 h3 {
+        margin: 60px 0px 10px 0px;
+        text-align: left;
+    }
+
+    .box-01-01-main {
+
+    }
+
+    .text-01-box-01 {
+        color: var(--Grayish-Blue);
+        width: 350px;
+        text-align: left;
+        
+    }
+
+    .box-01-02-main {
+
+    }
+
+    .text-02-box-01 {
+        color: var(--Grayish-Blue);
+        width: 350px;
+        text-align: left;
+    }
+
+    .box-01-03-main {
+        
+    }
+
+    .text-03-box-01 {
+        color: var(--Grayish-Blue);
+        width: 350px;
+        text-align: left;
+        margin-bottom: 150px;
+    }
+
+    .text-02-main {
+        color: var(--Grayish-Blue);
+        width: 700px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .image-devices {
+        width: 700px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    main h2 {
+        font-size: 30px;
+    }
+
+    .text-03-main {
+        color: var(--Grayish-Blue);
+        margin-top: 15px;
+    }
+
+    .icon-blacklist {
+        margin-top: 100px;
+    }
+
+    .box-02-main {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .text-supply-03 {
+        width: 33%;
+    }
+
+    .text-supply-04 {
+        width: 33%;
+    }
+    
+    .text-supply-05 {
+        width: 33%;
+    }
+
+    .text-01-box-02 {
+        color: var(--Grayish-Blue);
+        width: 350px;
+        margin: auto;
+    }
+
+    .icon-text {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .text-02-box-02 {
+        color: var(--Grayish-Blue);
+        width: 350px;
+        margin: auto;
+    }
+
+    .icon-preview {
+        margin: 100px 0px 0px 0px;
+    }
+
+    .text-03-box-02 {
+        color: var(--Grayish-Blue);
+        width: 350px;
+        margin: auto;
+    }
+
+    .box-03-main {
+        display: flex;
+        flex-direction: row;
+        margin: 150px 0px;
+    }
+
+    .logo-google {
+        width: 150px;
+        margin: auto;
+    }
+
+    .logo-ibm {
+        width: 150px;
+        margin: auto;
+    }
+
+    .logo-microsoft {
+        width: 150px;
+        margin: auto;
+    }
+
+    .logo-hp {
+        width: 150px;
+        margin: auto;
+    }
+
+    .logo-vector-graphics {
+        width: 150px;
+        margin: auto;
+    }
+
+    .text-04-main {
+        color: var(--Grayish-Blue);
+        width: 700px;
+        margin: 50px auto;
+    }
+
+    .box-04-main {
+        margin-bottom: 200px;
+    }
+
+    footer {
+        background-color: rgb(238, 238, 238);
+        display: flex;
+        padding: 10px 0px;
+    }
+
+    .box-01-footer {
+        width: 30%;
+    }
+
+    .logo2 {
+        width: 50px;
+        margin: 30px 0px;
+    }
+
+    .box-02-footer {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        width: 50%;
+    }
+
+    .a-box-01 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+    }
+
+    .a-box-02 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+    }
+
+    .a-box-03 {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 20px 0px 20px;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: var(--Dark-Grayish-Blue);
+        margin: 10px;
+    }
+
+    footer a:hover {
+        cursor: pointer;
+        color: var(--Strong-Cyan);
+    }
+
+    .box-03-footer {
+        display: flex;
+        justify-content: space-evenly;
+        width: 10%;
+        margin-top: 30px;
+        margin-right: 80px;
+    }
+
+    .icon-facebook {
+
+    }
+
+    .icon-twitter {
+
+    }
+
+    .icon-instagram {
+
+    }
+
+    .icon-facebook:hover {
+        cursor: pointer;
+    }
+
+    .icon-twitter:hover  {
+        cursor: pointer;
+    }
+
+    .icon-instagram:hover  {
+        cursor: pointer;
+    }
+
+
+}

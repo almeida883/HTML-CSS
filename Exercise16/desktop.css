@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@media (min-width: 1439px) { 
+
+    :root {
+        --Gradient: linear-gradient(to right, #ffa399 , #ff4d97);
+
+        --Pale-Blue: hsl(243, 100%, 93%);
+        --Grayish-Blue: hsl(229, 7%, 55%);
+        --Dark-Blue: hsl(228, 56%, 26%);
+        --Very-Dark-Blue: hsl(229, 57%, 11%);
+    
+        --Raleway: 'Raleway', sans-serif;
+    }
+
+    body {
+        margin: 0;
+        background-color: var(--Very-Dark-Blue);
+        background-image: url(images/bg-desktop.png);
+        background-repeat: no-repeat;
+        background-size: 3000px;
+        background-position: 10% -500%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+
+        font-family: var(--Raleway);
+        color: var(--Pale-Blue);
+    }
+
+    main {
+        display: flex;
+        
+    }
+
+    .container-01 {
+        width: 350px;
+        height: 200px;
+        background-color: var(--Dark-Blue);
+        border-radius: 10px 100px 10px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .logo {
+        margin: 0px 0px 30px 30px;
+    }
+
+    .container-02 {
+        width: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .box-icon {
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        background-color: var(--Very-Dark-Blue);
+        margin: 0px 10px 0px 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .icon-document {
+        display: block;
+        margin: auto;
+        
+    }
+
+    .icon-folder {
+        display: block;
+        margin: auto;
+    }
+
+    .icon-upload {
+        display: block;
+        margin: auto;
+    }
+
+    .container-03 {
+        margin: 40px 0px 0px 30px;
+        width: 650px;
+        height: 160px;
+        background-color: var(--Dark-Blue);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-01 {
+        margin: 40px 0px -25px 70px;
+    }
+
+    .text-01 span {
+        font-weight: 700;
+    }
+
+    .bar-01 {
+        height: 20px;
+        width: 80%;
+        background-color: var(--Very-Dark-Blue);
+        margin: auto;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .bar-02 {
+        height: 14px;
+        width: 80%;
+        background-image: var(--Gradient);
+        border-radius: 10px;
+        margin-left: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .ball {
+        width: 12px;
+        height: 12px;
+        background-color: white;
+        border-radius: 50px;
+        margin-right: 1%;
+    }
+
+    .space-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: -30px;
+        width: 510px;
+    }
+
+    .gb-0 {
+        font-weight: 700;
+    }
+
+    .gb-1000 {
+        font-weight: 700;
+    }
+
+    .container-04 {
+        width: 170px;
+        height: 70px;
+        background-color: white;
+        border-radius: 10px 10px 0px 10px;
+        color: var(--Very-Dark-Blue);
+        position: absolute;
+        transform: translate(465% , -10%);
+    }
+    
+    .text-02 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .number {
+        font-weight: 700;
+        font-size: 40px;
+        margin: 7px;
+    }
+
+    .text-03 {
+        color: var(--Grayish-Blue);
+        font-size: 12px;
+        font-weight: 700;
+        margin: 10px 0px 0px 2px;
+    }
+
+
+    .mini-box {
+        margin-left: 130px;
+        width: 0px;
+        height: 0px;
+        background-color: transparent;
+        border: 20px solid transparent;
+        border-top: 20px solid white;
+        border-right: 20px solid white;
+    }
+
+
+}
