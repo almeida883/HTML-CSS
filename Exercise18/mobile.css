@@ -17,13 +17,14 @@
 --Poppins: 'Poppins', sans-serif;
 }
 
-body, h1, h2, button, ul {
+body, h1, h2, button, ul, a{
     margin: 0;
     border-style: none;
     margin: 0;
     font-size: 18px;
     list-style: none;
     padding: 0;
+    text-decoration: none;
 }
 
 body {
@@ -118,7 +119,7 @@ header {
 main {
     font-family: var(--OpenSans);
     background-color: white;
-    padding: 30px 0px 200px 0px;
+    padding: 30px 0px 50px 0px;
 }
 
 .main-box-01 {
@@ -239,14 +240,19 @@ main {
 
 
 .main-box-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 330px;
     height: 150px;
     background-color: white;
     border-radius: 20px;
     text-align: center;
     box-shadow: 1px 1px 10px #00000020;
-    position: absolute;
-    transform: translate(7%, 80%);
+    margin: auto;
+    position: relative;
+    transform: translateY(80%);
+
 }
 
 .main-h2-04 {
@@ -281,12 +287,16 @@ footer {
     font-family: var(--OpenSans);
 }
 
+footer a {
+    color: white;
+}
+
 .footer-box-01 {
 
 }
 
 .logo-footer {
-    filter: brightness(100);
+    filter: hue-rotate(60deg) brightness(1000%);
     width: 170px;
 }
 
@@ -373,8 +383,75 @@ footer a {
 
 }
 
-.footer-box-10 {
 
+.footer-box-10 {
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-box-10 div a {
+    margin: 0px 10px;
+}
+
+.icon-facebook {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.icon-twitter {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.icon-instagram {
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 5px;
+}
+
+.icon-facebook:hover {
+    filter: invert(23%) sepia(92%) saturate(931%) hue-rotate(182deg) brightness(92%) contrast(93%);
+    cursor: pointer;
+}
+
+.icon-twitter:hover {
+    filter: invert(45%) sepia(49%) saturate(4586%) hue-rotate(191deg) brightness(91%) contrast(82%);
+    cursor: pointer;
+}
+
+.icon-instagram:hover {
+    filter: invert(28%) sepia(95%) saturate(2840%) hue-rotate(220deg) brightness(100%) contrast(95%);
+    cursor: pointer;
+}
+
+.footer-box-10 a i {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-box-11 {
